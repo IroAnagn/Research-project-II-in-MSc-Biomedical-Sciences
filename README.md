@@ -17,6 +17,9 @@ Start date: 15/01/2024 - End date: 16/06/2024
 
 #####################################################################################
 
+Data generated during this research project are available in the website https://sites.google.com/student.rug.nl/research-project2-s5340411. 
+
+
 How to run:
 The scripts are ordered in the way the analysis was executed: 
 1. eda_spatial_sample.R 

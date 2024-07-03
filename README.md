@@ -15,7 +15,8 @@ Start date: 15/01/2024 - End date: 16/06/2024
 
 
 
-##############################################################################
+#####################################################################################
+
 How to run:
 The scripts are ordered in the way the analysis was executed: 
 1. eda_spatial_sample.R 
@@ -39,7 +40,8 @@ The scripts are ordered in the way the analysis was executed:
 19. explore_top_colocalized_TCs
 
 
-#################################################################################
+###################################################################################
+
 Script: eda_spatial_sample.R 
 
 Description: 
@@ -56,7 +58,8 @@ PDF files with histograms of summary statistics (mean, median, min, max, 1st qua
 JPEG image with a customized plot for a specific feature.
 
 
-#####################################################################################
+#######################################################################################
+
 Script: eda_process_multiple_samples.R
 
 Description: 
@@ -72,7 +75,9 @@ Normalized Data: Log-normalized data with the first principal component removed 
 Summary Statistics and Histograms: PDFs of histograms for gene and spot expression statistics.
 
 
-#####################################################################################
+
+########################################################################################
+
 Script: identif_immune_tcs_reactome.R
 
 Description: 
@@ -94,7 +99,8 @@ Output Files
 Tab-separated file containing the filtered and ranked TCs associated with immune processes. 
 
 
-#####################################################################################
+#######################################################################################
+
 Script: identif_immune_tcs_gobp.R
 
 Description: 
@@ -116,7 +122,8 @@ Output Files:
 Tab-separated values file containing the selected TCs associated with immune-related gene sets, ranked 1.
 
 
-#####################################################################################
+#######################################################################################
+
 Script: identif_cna_tcs.R 
 
 Description:
@@ -144,7 +151,8 @@ Output Files:
 * immune_cna_tc_for_projection_spatialsamples.tsv: Merged dataframe of unique TCs.
 
 
-#####################################################################################
+#######################################################################################
+
 Script: merge_immune_tcs_gobp_reactome.R
 
 Description:
@@ -173,7 +181,8 @@ Output Files:
 * Heatmaps for immune Reactome and GOBP data (PDF files).
 
 
-#####################################################################################
+#######################################################################################
+
 Script: genomic_mapping.R
 
 Description:
@@ -199,7 +208,8 @@ Output Files:
 Genomic Ordered Plot Files: PNG files of genomic ordered plots for each TC.
 
 
-#####################################################################################
+#######################################################################################
+
 Script: plotting_tcs_on_spatial_samples.R
 
 Description:
@@ -224,7 +234,8 @@ Output Files:
 PDF file containing spatial plots of TCs for each sample.
 
 
-#####################################################################################
+#######################################################################################
+
 Script: plotting_CNA_TCs_on_spatial_samples.R
 
 Description:
@@ -250,7 +261,8 @@ Output Files:
 * TC Plots: PDF file containing plotted TCs for each spatial sample.
 
 
-##################################################################################### 
+####################################################################################### 
+
 Script: check_colocalization_ks_slurm_part1.R
 
 Description
@@ -277,7 +289,8 @@ Output Files:
 * Coloc Scores: Tab-separated values file of the calculated coloc scores.
 
 
-#####################################################################################
+#######################################################################################
+
 Script: check_colocalization_ks_slurm_part2.R
 
 Description:
@@ -307,7 +320,8 @@ Output Files:
 
 
 
-#####################################################################################
+#######################################################################################
+
 Script: check_colocalization_ks_slurm_part3.R
 
 Description:
@@ -344,7 +358,9 @@ Output Files:
 * Combined TSV file containing colocalization scores for all images.
 
 
-#####################################################################################
+
+#######################################################################################
+
 Script: identify_correlated_TCs.R
 
 Description:
@@ -375,7 +391,8 @@ Output Files:
 
 
 
-#####################################################################################
+#######################################################################################
+
 Script: plotting_top_colocalized_tcs_on_spatial_samples.R
 
 Description:
@@ -400,7 +417,8 @@ Output Files:
 PDF file containing plots of the selected TCs on the specified spatial samples.
 
 
-#####################################################################################
+#######################################################################################
+
 Script: TC_correlation_histograms.R
 
 Description: 
@@ -426,7 +444,8 @@ Output Files:
 * Pdf file of histograms showing correlation distributions of immune-CNA-TCs for each cancer sample.
 
 
-#####################################################################################
+#######################################################################################
+
 Script: subset_old_corrected_mixing_matrix.R
 
 Description:
@@ -439,7 +458,8 @@ Output files:
 Tab-separated file (.tsv): Subsetted corrected mixing matrix containing only CNA-TCs, optimized for subsequent data processing.
 
 
-#####################################################################################
+#######################################################################################
+
 Script: creating_new_mixing_matrix.R
 
 Description:
@@ -463,7 +483,8 @@ Output Files:
 Tab-delimited file (.tsv): Contains the new corrected mixing matrix.
 
 
-#####################################################################################
+#######################################################################################
+
 Script: cna_tcs_heatmap_chr_annotations.R
 
 Description:
@@ -490,7 +511,8 @@ Output Files:
 * PDF file: Corrected chromosome order and rainbow chromosome annotation.
 
 
-#####################################################################################
+#######################################################################################
+
 Script:  explore_top_colocalized_TCs
 
 Description:
